@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+
+
+li{
+    display: inline;
+    padding: 0.5em;
+    
+}
+
+.cabecalho {
+    padding: 0 9px 0 9px;
+  
+    
+    
+}
+
+.cabecalho .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opcoes ul > li > a {
+    color: rgb(255, 255, 255);
+}
+.opcoes ul > li > a.active {
+    color: white;
+    font-weight: bold;
+}
+
+.titulo {
+    padding: 9px;
+    display: flex;
+    place-content: center;
+   
+    
+}
+
+.titulo h2 {
+    font-size: 45px;
+    padding: 25px;
+    
+}
+
+.briefing {
+    margin: 10px;
+    font-weight: bold;
+    color: rgba(144, 144, 144); 
+    font-size: 22px;
+    padding: 23px 0;
+    text-align: center;
+}
+
+.conteudo {
+    display: flex;
+    text-align: center;
+    color: rgb(134, 134, 134, 0.904); 
+    
+}
+
+.conteudo .meio {
+    display: flex;
+    text-align: center;
+    font-size: 21px;
+    color: rgba(134, 134, 134, 0.904); 
+}
+
+.conteudo .direita {
+    width: 50%;
+    font-size: 21px;
+    color:rgba(134, 134, 134, 0.904); 
+}
+
+.conteudo2{
+    display: flex;
+    color: rgba(134, 134, 134, 0.904); 
+}
+.conteudo2 .esquerda2 {
+    display: flex;
+    text-align: center;
+    color: rgba(134, 134, 134, 0.904); 
+}
+.conteudo2 .direita2 {
+    display: flex;
+    text-align: center;
+    font-size: 22px;
+    color: rgba(134, 134, 134, 0.904); 
+    
+}  
+
+.separador {
+    margin: 15px 15px;
+    border-color: rgb(173, 173, 173);
+    background-color: rgb(207, 206, 206);
+    color: rgb(214, 214, 214);
+    
+    
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+
+.video {
+    text-align: center;
+}
+
+footer {
+    
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer ul {
+    list-style: none;
+    
+}
+
+footer li {
+    margin: 1px;
+}
+
+.Calculadora {
+    color: rgba(134, 134, 134, 0.904); 
+    text-align: center;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulosc {
+    font-size: 30px;
+}
+
+.botao {
+    color: white;
+    background-color: rgba(134, 134, 134, 0.904); 
+}
+
+.inputs {
+    border-color: white;
+    background-color: rgba(134, 134, 134, 0.904); 
+    color: white;
+}
